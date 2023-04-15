@@ -5,7 +5,7 @@ import "./LeftMenu.css";
 function LeftMenu() {
   return (
     <div className="left-menu">
-      <div className="logo">Logo</div>
+      <div className="logo">Spotify</div>
       <div className="menu-item">
         <Link to="/" className="active">
           <span className="icon">
