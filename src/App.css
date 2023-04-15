@@ -1,0 +1,12 @@
+.App {
+  display: flex;
+  margin-left: 300px;
+  overflow-y: scroll;
+}
+
+.page-content {
+  flex: 1;
+  padding: 20px;
+
+  height: 100%;
+}

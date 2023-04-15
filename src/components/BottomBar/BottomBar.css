@@ -1,0 +1,49 @@
+.bottom-bar {
+    height: 50px;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    background-color: #1f1f1f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 50px;
+}
+
+.player-controls {
+    display: flex;
+    align-items: center;
+}
+
+.play-icon {
+    margin: 0 10px;
+}
+
+.pause-icon {
+    margin: 0 10px;
+}
+
+.song-title {
+    font-weight: bold;
+    font-size: 16px;
+    color: #fff;
+}
+
+.song-artist {
+    font-size: 12px;
+    color: #b3b3b3;
+}
+
+.song-progress {
+    width: 20%;
+    height: 5px;
+    background-color: #383838;
+    margin: 0 10px;
+}
+
+.progress-bar {
+    height: 5px;
+    background-color: #1ed760;
+    width: 25%;
+}

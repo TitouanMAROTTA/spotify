@@ -1,0 +1,43 @@
+.left-menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 300px;
+    background-color: #040404;
+    color: #fff;
+    padding: 20px;
+}
+
+.logo {
+    margin-bottom: 40px;
+}
+
+.menu-item {
+    margin-bottom: 16px;
+}
+
+.menu-item a {
+    display: flex;
+    align-items: center;
+    color: #b3b3b3;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.menu-item a:hover {
+    color: #fff;
+}
+
+.menu-item.active a {
+    color: #fff;
+}
+
+.menu-item.active .icon {
+    color: #1db954;
+}
+
+.icon {
+    margin-right: 16px;
+    font-size: 20px;
+}

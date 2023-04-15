@@ -1,0 +1,41 @@
+.home-page {
+    padding: 24px;
+    height: 100vh;
+  }
+  
+  .playlists-section {
+    margin-bottom: 32px;
+  }
+  
+  .playlist-card {
+    border: none;
+    padding: 0;
+  }
+  
+  .playlist-card-details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+  }
+  
+  .playlist-card-details img {
+    border-radius: 8px;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+  
+  .playlist-card-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    margin-top: 12px;
+    font-size: 18px;
+    font-weight: bold;
+    color: lightgrey;
+    border-radius: 8px;
+    padding: 8px 16px;
+  }
