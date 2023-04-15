@@ -32,7 +32,7 @@ th {
 :where(.css-dev-only-do-not-override-htwhyh).ant-table-wrapper .ant-table-tbody>tr>td,
 :where(.css-dev-only-do-not-override-htwhyh).ant-table-wrapper tfoot>tr>th,
 :where(.css-dev-only-do-not-override-htwhyh).ant-table-wrapper tfoot>tr>td {
-  position: relative;
-  padding: 10px;
-  overflow-wrap: break-word;
+    position: relative;
+    padding: 10px;
+    overflow-wrap: break-word;
 }

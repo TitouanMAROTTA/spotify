@@ -7,12 +7,6 @@ interface Playlist {
   name: string;
 }
 
-// interface Song {
-//   id: number;
-//   name: string;
-//   artist: string;
-// }
-
 const HomePage = () => {
   const navigate = useNavigate();
 
